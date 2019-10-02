@@ -7,9 +7,6 @@ goal = Math.floor(Math.random() *99 + 19);
 
 
 $("#target").html("goal:  " + goal);
-$("#ws").html("wins:  " + wins);
-$("#ls").html("loses:  " + loses);
-
 
 
 for(var i = 0; i < 4; i++){
@@ -32,10 +29,10 @@ $(".crystal").on("click", function (){
     console.log(added);
 
     if(added > goal){
-        loses--;
+        console.log("lose");
     }
     else if(added === goal){
-        wins--;
+        console.log("win")
     }
 
 })
