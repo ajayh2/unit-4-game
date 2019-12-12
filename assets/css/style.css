@@ -1,16 +1,29 @@
-.allCrystals{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.allCrystals {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.numberR{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.numberR {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.crystal{
-    border:30px solid black;
-    height:200px ;
-    width: 200px ;
+.crystal {
+  border: 30px solid rgb(137, 33, 33);
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+header {
+  padding: 60px;
+  text-align: center;
+  background: red;
+  color: white;
+  font-size: 30px;
+}
 
+body {
+  background-image: url("https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif");
+  background-color: #cccccc;
+  color: blue;
 }
